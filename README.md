@@ -1,5 +1,5 @@
 ### Date created
-June 8, 2020
+Monday, June 8, 2020
 
 ### Project Title
 Investigate a Bikeshare Dataset
