@@ -45,7 +45,7 @@ def get_filters():
         except:
             print('That\'s not a valid day - try again!')
         finally:
-            print("We will explore data for {}.".format(day))
+            print("Thank you!")
 
     print('-'*40)
     return city, month, day
