@@ -35,7 +35,7 @@ def get_filters():
         except:
             print('That\'s not a valid month - try again!')
         finally:
-            print("We will explore data for {}.".format(month))
+            print("Thank you!")
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
