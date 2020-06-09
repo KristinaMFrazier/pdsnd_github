@@ -24,7 +24,7 @@ def get_filters():
         except:
             print('That\'s not a valid city - try again!')
         finally:
-            print("We will explore data for {}.".format(city))
+            print("Thank you!")
 
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -182,9 +182,9 @@ def main():
         see_data = input('\nWould you like to see five rows of the raw data based on your filters? Enter yes or no.\n')
         if see_data.lower() == 'yes':
             # display 5 rows of data
-            rows = 5 
+            rows = 5
             print(df.iloc[0:rows])
-            while True: 
+            while True:
                 # ask user to see more data
                 see_more = input('\nWould you like to see more?\n')
                 if see_more.lower() == 'yes':
